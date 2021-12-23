@@ -1,0 +1,376 @@
+body {
+    min-width: 850px;
+    background-image: linear-gradient(to right, #9793b4, #c2bfd8);
+
+    /* background-repeat: no-repeat;
+    background-image: linear-gradient(#060133, #fff); */
+    font-family: 'Bungee Inline';
+    /* font-family: 'VT323', monospace; */
+    width: 100%;
+    margin: 0 auto;
+}
+
+img {
+    width:50%;
+    padding: 1%;
+}
+
+#homePage {
+    text-decoration: none;
+    color: #fff;
+}
+
+#maincontent {
+    display: flex;
+    margin-top: 5%;
+
+}
+
+#header {
+    background-color: #000;
+    text-align: center;
+    font-size: larger;
+    color: #fff;
+    padding: 1% 0;
+
+}
+
+
+
+#user-aside {
+    width: 10%;
+    /* background-color: #2f4f4f; */
+    margin-right: 5%;
+    text-align: center;
+    /* border-right: solid #000 5px; */
+
+}
+
+#userbutton {
+    border-radius: 5px;
+    padding: 10%;
+    font-family: 'Bungee Inline';
+}
+
+
+#rules-aside {
+    width: 10%;
+    /* background-color: #2f4f4f; */
+    margin-left: 5%;
+    text-align: center;
+    /* border-left: solid #000 5px; */
+}
+
+#rules {
+    border-radius: 5px;
+    padding: 10%;
+    font-family: 'Bungee Inline';
+    /* width: 50%;
+    padding: 1%;
+    border: solid 2px #000;
+    border-radius: 5px;
+    font-size: large;
+    font-family: 'Bungee Inline'; */
+}
+
+#rules:hover {
+    background-color: #645f5f;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* MODAL DESIGN */
+.modal {
+position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 15%; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #000000; /* Fallback color */
+  background-color: #00000066;
+  min-width: 850px;
+}
+
+.modal-content {
+background-color: #fefefe;
+  margin: auto;
+  padding: 3% 5%;
+  /* padding: 20px; */
+  /* border: 1px solid #888; */
+  width: 60%;
+  /* height: 45%; */
+  border-radius: 5px;
+}
+
+#closeModal {
+    margin-top: 5%;
+    border-radius: 5px;
+    font-family: 'Bungee Inline';
+    font-size: large;
+    padding: 2%;
+    background-color: #11b811;
+}
+
+#closeModal:hover,
+#closeModal:focus {
+  color: #11b811;
+  background-color: #000;
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: 1s ease-in-out;
+}
+
+/* USER MODAL */
+
+#userbutton:hover {
+    background-color: #645f5f;
+    color: #fff;
+}
+
+.sideModal {
+    display: none;
+    position: fixed; /* Stay in place */
+      z-index: 1; /* Sit on top */
+      padding-top: 20%; /* Location of the box */
+      left: 0;
+      top: 0;
+      width: 100%; /* Full width */
+      height: 100%; /* Full height */
+      overflow: auto; /* Enable scroll if needed */
+      background-color: #000000; /* Fallback color */
+      background-color: #00000066;
+      min-width: 850px;
+    }
+    
+    .modal-content-right {
+    background-color: #fefefe;
+      margin: auto;
+      padding: 3% 5%;
+      /* padding: 20px; */
+      /* border: 1px solid #888; */
+      width: 60%;
+      /* height: 45%; */
+      border-radius: 5px;
+    }
+    
+    #close-right-modal {
+        margin-top: 5%;
+        border-radius: 5px;
+        font-family: 'Bungee Inline';
+        font-size: large;
+        padding: 2%;
+        background-color: #ffff00;
+        color: #000;
+    }
+    
+    #close-right-modal:hover,
+    #close-right-modal:focus {
+      color: #ffff00;
+      background-color: #000;
+      cursor: pointer;
+    }
+    
+
+
+
+
+
+/* endgame modal */
+
+.endModal {
+    display: none;
+    position: fixed; /* Stay in place */
+      z-index: 1; /* Sit on top */
+      padding-top: 20%; /* Location of the box */
+      left: 0;
+      top: 0;
+      width: 100%; /* Full width */
+      height: 100%; /* Full height */
+      overflow: auto; /* Enable scroll if needed */
+      background-color: #000000; /* Fallback color */
+      background-color: #00000066;
+    }
+
+#loseModal {
+        background-color: #fff;
+        text-align: center;
+          margin: auto;
+          padding: 3% 5%;
+          /* padding: 20px; */
+          /* border: 1px solid #888; */
+          width: 55%;
+          border-radius: 5px;
+          border: solid 5px #000;
+        }
+
+#playAgain {
+            margin: auto;
+            border-radius: 5px;
+            font-family: 'Bungee Inline';
+            font-size: large;
+            padding: 2%;
+            background-color: #ff0000;
+            border: solid 2px #000;
+        }
+
+        #playAgain:hover,
+        #playAgain:focus {
+          color: #fff;
+          background-color: #ff0000;
+          cursor: pointer;
+        }
+
+/* YOU WON MODAL */
+
+        .wonModal {
+            display: none;
+            position: fixed; /* Stay in place */
+              z-index: 1; /* Sit on top */
+              padding-top: 20%; /* Location of the box */
+              left: 0;
+              top: 0;
+              width: 100%; /* Full width */
+              height: 100%; /* Full height */
+              overflow: auto; /* Enable scroll if needed */
+              background-color: #000000; /* Fallback color */
+              background-color: #00000066;
+            }
+        
+        #winModal {
+                background-color: #fff;
+                text-align: center;
+                  margin: auto;
+                  padding: 3% 5%;
+                  /* padding: 20px; */
+                  /* border: 1px solid #888; */
+                  width: 55%;
+                  border-radius: 5px;
+                  border: solid 5px #000;
+                }
+        
+        #tryAgain {
+                    margin: auto;
+                    border-radius: 5px;
+                    font-family: 'Bungee Inline';
+                    font-size: large;
+                    padding: 2%;
+                    background-color: #00ff00;
+                    border: solid 2px #000;
+                }
+        
+                #tryAgain:hover,
+                #tryAgain:focus {
+                  color: #fff;
+                  background-color: #00ff00;
+                  cursor: pointer;
+                }
+
+
+
+.clckdsgn {
+    color:#2249f3;
+}
+
+
+
+
+
+
+#flagDisplay {
+    visibility: hidden;
+}
+
+#centerdiv {
+    width: 60%;
+    margin: auto;
+    border: inset #ffffff 5px;
+}
+
+
+#timerpoints {
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    border-bottom: inset #fff 5px;
+    background-color: #2c2b2b;
+
+}
+
+#timer {
+    border-radius: 2px;
+    margin-left: 2%;
+    padding: 2%;
+    background-color: #000;
+    color: #ff0000;
+}
+
+#points {
+    border-radius: 2px;
+    margin-right: 2%;
+    padding: 2%;
+    background-color: #000;
+    color: #ff0000;
+}
+
+#word-window {
+    width: 100%;
+    height: 450px;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.littlesquare {
+    background-color: #383838;
+    /* border: solid #1d1d1d 2px; */
+    border-radius: 3px;
+}
+
+.littlesquare:hover {
+    background-color: #5e5d5d;
+    cursor: pointer;
+}
+
+.flag-on {
+    background: url('images/redFlag.png');
+    background-color: #383838;
+    background-size: 35%;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* border: solid #1d1d1d 2px; */
+    border-radius: 3px;
+}
+
+/* .bombButton {
+    background-color: #585858;
+} */
+
+footer {
+    text-align: right;
+    position: absolute;
+    background-color: #333338;
+    width: 100%;
+    min-width: 850px;
+
+    margin-top: 10%;
+}
+
+#bottom-info {
+    color: #fff;
+    font-size: smaller;
+    margin-right: 2%;
+}
+
+#corrinLink {
+    color:#69697a;
+    text-decoration: none;
+}
+
+#corrinLink:hover {
+    color: #c0bfc7;
+    cursor: pointer;
+}

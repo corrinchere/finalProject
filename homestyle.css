@@ -1,0 +1,98 @@
+body {
+    background-color: #000;
+    padding-top: 15%;
+    /* font-family: 'VT323', monospace; */
+    font-family: 'Bungee Inline';
+    margin: 0 auto;
+    min-width: 850px;
+}
+
+
+
+#wordBox {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    line-height: 50%;
+}
+
+#welcome {
+    color: #eee23e;
+    /* animation: glow-white 1.5s ease-in-out infinite alternate;; */
+}
+
+/* w3 https://www.w3schools.com/howto/howto_css_glowing_text.asp */
+#arcade {
+    font-size: 100px;
+    color: #fff;
+    text-align: center;
+    /* -webkit-text-stroke: #2052be 1px; */
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow-white {
+    from {
+        text-shadow: 0 0 5px #ffffff, 0 0 8px #abb1be;
+    }
+
+    to {
+        text-shadow: 0 0 9px #abb1be, 0 0 12px #ffffff;
+    }
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px #2052be, 0 0 15px #94ade4;
+    }
+
+    to {
+        text-shadow: 0 0 15px #557bcc, 0 0 25px #c5d7ff;
+    }
+}
+
+
+button {
+    font-family: 'VT323', monospace;
+    width: 15%;
+    font-size: 20px;
+    border: none;
+    border-radius: 2px;
+}
+
+#buttonLink {
+    text-decoration: none;
+    color: #000;
+}
+
+button:hover {
+    background-color: #c2ffc2;
+    color: #fff;
+    border: none;
+    box-shadow: 0 0 20px #a0ffa0;
+    transform: scale(1.2);
+    transition: ease-in-out .8s;
+}
+
+
+
+footer {
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#bottom-info {
+    color: #fff;
+    font-size: smaller;
+    margin-right: 1%;
+}
+
+#corrinLink {
+    color:#8fbc8f;
+    text-decoration: none;
+}
+
+#corrinLink:hover {
+    color: #3e6d3e;
+}

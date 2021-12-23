@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>the ARCADE GAME CENTER</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Georama:wght@100&family=Lato&family=Merriweather:wght@300&family=Monoton&family=Nunito:wght@200&family=Press+Start+2P&family=Roboto+Mono&family=Scheherazade+New&family=Source+Sans+Pro&family=VT323&family=Zen+Kaku+Gothic+New&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bakbak+One&family=Bungee+Inline&family=Georama:wght@100&family=Lato&family=Merriweather:wght@300&family=Monoton&family=Nunito:wght@200&family=Press+Start+2P&family=Roboto+Mono&family=Scheherazade+New&family=Source+Sans+Pro&family=VT323&family=Zen+Kaku+Gothic+New&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="header">
+        <h1 id="arcade"><a href="homePage.html" id="homePage">the ARCADE</a></h1>
+    </div>
+    <!-- <button class="newbutton">new 1</button>
+    <button class="newbutton">new 2</button> -->
+
+    <div id="maincontent">
+
+        <aside id="rules-aside">
+            <button id="rules" class="buttondesign">rules</button>
+
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <h1>RULES</h1>
+                    <p>Find and flag <span class="clckdsgn">(WITH SINGLE CLICK)</span> ALL <span style="color:#ff0000">bombs</span>  and uncover all numbered boxes<span class="clckdsgn"> (WITH DOUBLE CLICK)</span>.</p>
+                    <p>Each number indicates the amount of <span style="color:#ff0000">bombs</span> in its surrounding eight boxes.</p>
+                    <button id="closeModal" class="buttondesign">PLAY!</button>
+                </div>
+            </div>
+        </aside>
+
+
+
+        <div id="centerdiv">
+
+            <div id="youLose" class="endModal">
+                <div id="loseModal">
+                    <h1>YOU LOSE!</h1>
+                    <p>You hit a <span style="color: #ff0000">bomb.</span> I know you'll win the next time!</p>
+                    <button id="playAgain" onClick="window.location.reload();">PLAY AGAIN?</button>
+                </div>
+            </div>
+
+            <div id="youWon" class="wonModal">
+                <div id="winModal">
+                    <h1>CONGRATS! YOU WON!</h1>
+                    <p>You <span style="color: #00ff00"> found all the bombs!</span> See if you can do it faster this time!</p>
+                    <button id="tryAgain">PLAY AGAIN?</button>
+                </div>
+            </div>
+
+                <div id="timerpoints">
+                    <p id="timer"></p>
+                    <p id="points">minesweeper</p>
+
+                </div>
+                <div id="word-window">
+                    <button class="littlesquare bombButton" id="example-bomb"></button>
+                    <button class="littlesquare win-button" id="b-1"></button>
+                    <button class="littlesquare win-button" id="c-1"></button>
+                    <button class="littlesquare win-button" id="d-1"></button>
+                    <button class="littlesquare win-button" id="e-1"></button>
+                    <button class="littlesquare win-button" id="f-1"></button>
+                    <button class="littlesquare win-button" id="g-1"></button>
+                    <button class="littlesquare bombButton" id="h-1"></button>
+                    <button class="littlesquare win-button" id="a-2"></button>
+                    <button class="littlesquare win-button" id="b-2"></button>
+                    <button class="littlesquare win-button" id="c-2"></button>
+                    <button class="littlesquare bombButton" id="d-2"></button>
+                    <button class="littlesquare win-button" id="e-2"></button>
+                    <button class="littlesquare bombButton" id="f-2"></button>
+                    <button class="littlesquare win-button" id="g-2"></button>
+                    <button class="littlesquare bombButton" id="h-2"></button>
+                    <button class="littlesquare win-button" id="a-3"></button>
+                    <button class="littlesquare bombButton" id="b-3"></button>
+                    <button class="littlesquare win-button" id="c-3"></button>
+                    <button class="littlesquare win-button" id="d-3"></button>
+                    <button class="littlesquare win-button" id="e-3"></button>
+                    <button class="littlesquare win-button" id="f-3"></button>
+                    <button class="littlesquare win-button" id="g-3"></button>
+                    <button class="littlesquare win-button" id="h-3"></button>
+                    <button class="littlesquare bombButton" id="a-4"></button>
+                    <button class="littlesquare win-button" id="b-4"></button>
+                    <button class="littlesquare win-button" id="c-4"></button>
+                    <button class="littlesquare win-button" id="d-4"></button>
+                    <button class="littlesquare win-button" id="e-4"></button>
+                    <button class="littlesquare bombButton" id="f-4"></button>
+                    <button class="littlesquare win-button" id="g-4"></button>
+                    <button class="littlesquare win-button" id="h-4"></button>
+                    <button class="littlesquare win-button" id="a-5"></button>
+                    <button class="littlesquare win-button" id="b-5"></button>
+                    <button class="littlesquare win-button" id="c-5"></button>
+                    <button class="littlesquare win-button" id="d-5"></button>
+                    <button class="littlesquare win-button" id="e-5"></button>
+                    <button class="littlesquare win-button" id="f-5"></button>
+                    <button class="littlesquare win-button" id="g-5"></button>
+                    <button class="littlesquare win-button" id="h-5"></button>
+                    <button class="littlesquare win-button" id="a-6"></button>
+                    <button class="littlesquare bombButton" id="b-6"></button>
+                    <button class="littlesquare win-button" id="c-6"></button>
+                    <button class="littlesquare bombButton" id="d-6"></button>
+                    <button class="littlesquare win-button" id="e-6"></button>
+                    <button class="littlesquare win-button" id="f-6"></button>
+                    <button class="littlesquare win-button" id="g-6"></button>
+                    <button class="littlesquare win-button" id="h-6"></button>
+                    <button class="littlesquare win-button" id="a-7"></button>
+                    <button class="littlesquare win-button" id="b-7"></button>
+                    <button class="littlesquare win-button" id="c-7"></button>
+                    <button class="littlesquare win-button" id="d-7"></button>
+                    <button class="littlesquare win-button" id="e-7"></button>
+                    <button class="littlesquare win-button" id="f-7"></button>
+                    <button class="littlesquare bombButton" id="g-7"></button>
+                    <button class="littlesquare win-button" id="h-7"></button>
+                    <button class="littlesquare win-button" id="a-8"></button>
+                    <button class="littlesquare win-button" id="b-8"></button>
+                    <button class="littlesquare bombButton" id="c-8"></button>
+                    <button class="littlesquare win-button" id="d-8"></button>
+                    <button class="littlesquare bombButton" id="e-8"></button>
+                    <button class="littlesquare win-button" id="f-8"></button>
+                    <button class="littlesquare win-button" id="g-8"></button>
+                    <button class="littlesquare win-button" id="h-8"></button>
+                
+                </div>
+
+        </div>  
+
+        <aside id="user-aside">
+            <button id="userbutton">USER</button>
+
+            <div id="rightModal" class="sideModal">
+                <div class="modal-content-right">
+                    <h1>HELLO, USER</h1>
+                    <p>I'm pretty non-functional, soo keep calm... and</p>
+                    
+                    <button id="close-right-modal" class="buttondesign-right">Carry on!</button>
+                </div>
+            </div>
+        </aside>
+
+        
+
+    </div>
+
+    <footer>
+        <p id="bottom-info">designed and built by <a href="https://github.com/corrinchere" target="_blank" id="corrinLink">corrin smith</a></p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
