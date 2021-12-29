@@ -1,0 +1,419 @@
+body {
+    font-family: 'Merriweather', serif;
+    color:#063b0d;
+    margin: 0 auto;
+    
+}
+
+#text-body {
+    width: 80%;
+    margin: auto;
+    /* border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    padding: 0 2%; */
+    clear:left;
+
+}
+
+#contact-list {
+    text-align: right;
+    margin: 3% 5%;
+    float: right;
+    line-height: 150%;
+}
+
+#mini-dropdown {
+    display:none;
+}
+
+#aboutme {
+    cursor: pointer;
+}
+
+#ham-menu {
+    display:none;
+}
+
+.inside-aside {
+    color: #063b0d;
+    padding: 2% 10%;
+}
+
+#aboutmebox {
+    background-color: #fff;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    overflow-y: scroll;
+    padding: 15px 30px;
+    position: fixed;
+    transition: all 0.35s ease-in-out;
+    transform: translateX(100%);
+    z-index: 10;
+}
+
+#aboutmebox.toggle-open {
+    transform: translateX(0%);
+    opacity: 1;
+}
+
+#aboutme-header {
+    text-align: center;
+    margin-top: 5%;
+}
+
+#about-close {
+    text-decoration: none;
+    color: #063b0d;
+    
+}
+
+#exit_button {
+    width: 3%;
+    float: right;
+    padding: 3%;
+}
+
+#name-intro {
+    margin-top: 10%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+    line-height: 85%;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#myname {
+   
+    font-size: 50px;
+    
+}
+
+#skills-sec {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+}
+
+
+li {
+    list-style-type: none;
+    color: #063b0d;
+}
+.skipto {
+    text-decoration: none;
+}
+
+.skipto:visited {
+    color: #063b0d;
+} 
+
+#icondiv {
+    text-align: left;
+    margin-top: 2%;
+    margin-left: 4%;
+    width: 40%;
+    float: left;
+}
+
+#icondiv2 {
+    text-align: center;
+    margin: 10% auto;
+    width: 50%;
+
+}
+
+.iconsection {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row: 1fr 1fr 1fr;
+}
+
+.iconsection-2 {
+    margin-top: 3%;
+}
+
+.iconimage {
+    width: 8%;
+    margin: 3%;
+}
+
+.hoverimage:hover {
+    transform: scale(1.2);
+    transition: 0.4s ease-in-out;
+}
+
+#projects {
+    text-align: center;
+    /* width: 100%;
+    background-color: #4d7953; */
+    /* margin-top: 8%; */
+}
+
+.projectimage {
+    width: 30%;
+    margin:1%;
+    opacity: 70%;
+    border-radius: 5px;
+
+}
+
+.projectimage:hover {
+    transform: scale(1.1);
+    transition: 1.0s ease-in-out;
+    opacity: 100%;
+
+}
+
+
+#personal-info {
+    text-align: center;
+    margin-top: 10%;
+}
+
+#contact-form {
+    margin: 10% 0;
+}
+
+footer {
+    text-align: center;
+    color: #fff;
+    background-color: #4d7953;
+    position:absolute;
+    width: 100%;
+    height: 15%;
+
+} 
+
+#footer-content {
+    width: 70%;
+    margin: auto;
+}
+
+#namelink {
+    text-decoration: none;
+    color: #84da90
+}
+
+#namelink:hover {
+    color: #c0f1c7;
+}
+
+#contact-icons {
+    display:none;
+
+}
+
+
+@media only screen and (max-width: 800px) {
+    body {
+        /* background-color: aquamarine; */
+    }
+
+    #icondiv {
+        text-align: left;
+        margin-top: 2%;
+        margin-left: 4%;
+        width: 55%;
+        float: left;
+    }
+
+    .iconsection {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-row: 1fr 1fr 1fr;
+    }
+    
+    .iconsection-2 {
+        margin-top: 3%;
+    }
+    
+    .iconimage {
+        width: 8%;
+        margin: 3%;
+    }
+
+    #name-intro {
+        margin-bottom: 10%;
+    }
+
+    
+
+    #projects {
+        width: 95%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        text-align: center;
+        margin:auto;
+    }
+
+    .projectimage {
+        width: 90%;
+        margin: 2% auto;
+        opacity: 70%;
+        border-radius: 5px;
+    
+    }
+
+}
+
+@media only screen and (max-width: 641px) {
+    body {
+        background-color: #fff;
+    }
+
+    #ham-menu {
+        position: fixed;
+        top: 0;
+        right:0;
+        display: block;
+        float:right;
+        margin: 2%;
+        cursor: pointer;
+        width: 8%;
+        
+    }
+
+    #mini-dropdown {
+        display: block;
+    }
+
+    #contact-list {
+        display: none;
+    }
+
+    #name-intro {
+        text-align: left;
+        /* margin-top: 10%;
+        margin-right: 5%;
+        line-height: 85%;
+        text-align: right;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin-bottom: 10%; */
+    }
+    
+    #myname {
+       
+        font-size: 30px;
+        
+    }
+
+   #skills-sec {
+       margin-top: 10%;
+   }
+
+    #icondiv {
+        display: none;
+        text-align: left;
+        margin-top: 2%;
+        margin-left: 4%;
+        width: 80%;
+        float: left;
+    }
+
+    .iconsection {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-row: 1fr 1fr 1fr;
+    }
+
+    .iconimage {
+        width: 8%;
+        margin: 3%;
+    }
+    
+    .hoverimage:hover {
+        transform: scale(1.2);
+        transition: 0.4s ease-in-out;
+    }
+
+    #text-body {
+        clear:right;
+    }
+
+    #projects {
+        width: 95%;
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+        margin:auto;
+    }
+
+    .projectimage {
+        width: 90%;
+        margin: 2% auto;
+        opacity: 70%;
+        border-radius: 5px;
+    
+    }
+
+
+    #mini-dropdown {
+        background-color: #4d7953;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        top: 0;
+        opacity: 0;
+        overflow-y: scroll;
+        /* padding: 15px 30px; */
+        position: fixed;
+        transition: all 0.35s ease-in-out;
+        transform: translateY(-100%);
+        z-index: 10;
+    }
+    
+    #mini-dropdown.toggle-open {
+        transform: translateY(0%);
+        opacity: 1;
+    }
+
+    #minilist {
+        width: 90%;
+        clear: right;
+       margin: auto;
+       text-align: center;
+    }
+
+    .mini-items {
+        color: #fff;
+        margin: 10%;
+        font-size: 30px;
+        text-decoration: none;
+        align-items: center;
+    }
+
+    .link-list {
+        text-decoration: none;
+    }
+
+    .link-list:visited {
+        color: #fff;
+    } 
+
+    #exit-mini {
+        width:10%;
+        float: right;
+        margin: 5%;
+    }
+
+    #namelink-about {
+        color: #84da90;
+    }
+
+    #namelink-about:hover {
+        color: #c0f1c7;
+    }
+
+    #contact-icons {
+        display:block;
+        margin-bottom: 10%;
+    
+    }
+}
