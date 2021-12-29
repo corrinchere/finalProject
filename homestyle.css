@@ -4,7 +4,7 @@ body {
     /* font-family: 'VT323', monospace; */
     font-family: 'Bungee Inline';
     margin: 0 auto;
-    min-width: 850px;
+    /* min-width: 850px; */
 }
 
 
@@ -95,4 +95,57 @@ footer {
 
 #corrinLink:hover {
     color: #3e6d3e;
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+        /* background-color: antiquewhite; */
+    }
+
+    #arcade {
+        font-size: 75px;
+        color: #fff;
+        text-align: center;
+        /* -webkit-text-stroke: #2052be 1px; */
+        animation: glow 1s ease-in-out infinite alternate;
+    }
+}
+
+@media only screen and (max-width: 641px) {
+    body {
+        /* background-color: aquamarine; */
+    }
+
+    #wordBox {
+        margin-top: 15%;
+    }
+
+    #welcome {
+        color: #eee23e;
+        font-size: 20px;
+        /* animation: glow-white 1.5s ease-in-out infinite alternate;; */
+    }
+
+    #arcade {
+        /* background-color: blue; */
+        font-size: 50px;
+        color: #fff;
+        text-align: center;
+        /* -webkit-text-stroke: #2052be 1px; */
+        animation: glow 1s ease-in-out infinite alternate;
+    }
+
+    button {
+        font-family: 'VT323', monospace;
+        width: 25%;
+        border: none;
+        border-radius: 2px;
+    }
+
+    #buttonLink {
+        text-decoration: none;
+        color: #000;
+        font-size: 20px;
+        padding: 2%;
+    }
 }
