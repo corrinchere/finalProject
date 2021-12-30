@@ -109,6 +109,13 @@ footer {
         /* -webkit-text-stroke: #2052be 1px; */
         animation: glow 1s ease-in-out infinite alternate;
     }
+
+    button {
+        font-family: 'VT323', monospace;
+        width: 35%;
+        border: none;
+        border-radius: 2px;
+    }
 }
 
 @media only screen and (max-width: 641px) {
@@ -118,6 +125,7 @@ footer {
 
     #wordBox {
         margin-top: 15%;
+        width: 100%;
     }
 
     #welcome {
@@ -137,7 +145,7 @@ footer {
 
     button {
         font-family: 'VT323', monospace;
-        width: 25%;
+        width: 20%;
         border: none;
         border-radius: 2px;
     }
