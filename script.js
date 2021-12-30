@@ -627,7 +627,7 @@ var btn = document.getElementsByClassName("win-button");
 for(var x=0;x<btn.length;x++) {
 btn[x].ondblclick = function () {
     score +=1;  
-    if (score === 3) {
+    if (score === 51) {
         wnmodal.style.display = "block"
     } else {
         wnmodal.style.display = "none";
