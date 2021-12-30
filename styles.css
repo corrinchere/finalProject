@@ -9,6 +9,7 @@ body {
     /* font-family: 'VT323', monospace; */
     width: 100%;
     margin: 0 auto;
+    min-width: 550px;
 }
 
 img {
