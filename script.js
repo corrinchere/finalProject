@@ -197,7 +197,7 @@ b1.addEventListener("dblclick", function(flipover){
     document.getElementById("b-1").style.backgroundColor = "#707070";
     document.getElementById("b-1").innerHTML = "1";
     document.getElementById("b-1").style.color = "blue";
-    document.getElementById("b-1").style.fontSize = "larger";
+    // document.getElementById("b-1").style.fontSize = "larger";
 })
 
 const c1 = document.getElementById("c-1")
@@ -205,7 +205,6 @@ c1.addEventListener("dblclick", function(flipover1){
     document.getElementById("c-1").style.backgroundColor = "#707070";
     document.getElementById("c-1").innerHTML = "1";
     document.getElementById("c-1").style.color = "blue";
-    document.getElementById("c-1").style.fontSize = "larger";
 
 })
 
@@ -215,7 +214,7 @@ d1.addEventListener("dblclick", function(flipover2){
     document.getElementById("d-1").style.backgroundColor = "#707070";
     document.getElementById("d-1").innerHTML = "1";
     document.getElementById("d-1").style.color = "blue";
-    document.getElementById("d-1").style.fontSize = "larger";
+    
 
 })
 
@@ -225,7 +224,7 @@ e1.addEventListener("dblclick", function(flipover){
     document.getElementById("e-1").style.backgroundColor = "#707070";
     document.getElementById("e-1").innerHTML = "2";
     document.getElementById("e-1").style.color = "#29dd56";
-    document.getElementById("e-1").style.fontSize = "larger";
+    
 })
 
 const f1 = document.getElementById("f-1")
@@ -233,7 +232,7 @@ f1.addEventListener("dblclick", function(flipover){
     document.getElementById("f-1").style.backgroundColor = "#707070";
     document.getElementById("f-1").innerHTML = "1";
     document.getElementById("f-1").style.color = "blue";
-    document.getElementById("f-1").style.fontSize = "larger";
+    
 })
 
 const g1 = document.getElementById("g-1")
@@ -241,7 +240,7 @@ g1.addEventListener("dblclick", function(flipover){
     document.getElementById("g-1").style.backgroundColor = "#707070";
     document.getElementById("g-1").innerHTML = "3";
     document.getElementById("g-1").style.color = "red";
-    document.getElementById("g-1").style.fontSize = "larger";
+    
 })
 
 const a2 = document.getElementById("a-2")
@@ -249,7 +248,7 @@ a2.addEventListener("dblclick", function(flipover){
     document.getElementById("a-2").style.backgroundColor = "#707070";
     document.getElementById("a-2").innerHTML = "2";
     document.getElementById("a-2").style.color = "#29dd56";
-    document.getElementById("a-2").style.fontSize = "larger";
+    
 })
 
 const b2 = document.getElementById("b-2")
@@ -257,7 +256,7 @@ b2.addEventListener("dblclick", function(flipover){
     document.getElementById("b-2").style.backgroundColor = "#707070";
     document.getElementById("b-2").innerHTML = "2";
     document.getElementById("b-2").style.color = "#29dd56";
-    document.getElementById("b-2").style.fontSize = "larger";
+    
 })
 
 const c2 = document.getElementById("c-2")
@@ -265,7 +264,7 @@ c2.addEventListener("dblclick", function(flipover){
     document.getElementById("c-2").style.backgroundColor = "#707070";
     document.getElementById("c-2").innerHTML = "2";
     document.getElementById("c-2").style.color = "#29dd56";
-    document.getElementById("c-2").style.fontSize = "larger";
+    
 })
 
 const e2 = document.getElementById("e-2")
@@ -273,7 +272,7 @@ e2.addEventListener("dblclick", function(flipover){
     document.getElementById("e-2").style.backgroundColor = "#707070";
     document.getElementById("e-2").innerHTML = "2";
     document.getElementById("e-2").style.color = "#29dd56";
-    document.getElementById("e-2").style.fontSize = "larger";
+    
 })
 
 const g2 = document.getElementById("g-2")
@@ -281,7 +280,7 @@ g2.addEventListener("dblclick", function(flipover){
     document.getElementById("g-2").style.backgroundColor = "#707070";
     document.getElementById("g-2").innerHTML = "3";
     document.getElementById("g-2").style.color = "red";
-    document.getElementById("g-2").style.fontSize = "larger";
+   
 })
 
 // LINE 3
@@ -291,7 +290,7 @@ a3.addEventListener("dblclick", function(flipover){
     document.getElementById("a-3").style.backgroundColor = "#707070";
     document.getElementById("a-3").innerHTML = "2";
     document.getElementById("a-3").style.color = "#29dd56";
-    document.getElementById("a-3").style.fontSize = "larger";
+    
 })
 
 const c3 = document.getElementById("c-3")
@@ -299,7 +298,7 @@ c3.addEventListener("dblclick", function(flipover){
     document.getElementById("c-3").style.backgroundColor = "#707070";
     document.getElementById("c-3").innerHTML = "2";
     document.getElementById("c-3").style.color = "#29dd56";
-    document.getElementById("c-3").style.fontSize = "larger";
+    
 })
 
 const d3 = document.getElementById("d-3")
@@ -307,7 +306,7 @@ d3.addEventListener("dblclick", function(flipover){
     document.getElementById("d-3").style.backgroundColor = "#707070";
     document.getElementById("d-3").innerHTML = "1";
     document.getElementById("d-3").style.color = "blue";
-    document.getElementById("d-3").style.fontSize = "larger";
+    
 })
 
 const e3 = document.getElementById("e-3")
@@ -315,7 +314,7 @@ e3.addEventListener("dblclick", function(flipover){
     document.getElementById("e-3").style.backgroundColor = "#707070";
     document.getElementById("e-3").innerHTML = "3";
     document.getElementById("e-3").style.color = "red";
-    document.getElementById("e-3").style.fontSize = "larger";
+    
 })
 
 const f3 = document.getElementById("f-3")
@@ -323,7 +322,7 @@ f3.addEventListener("dblclick", function(flipover){
     document.getElementById("f-3").style.backgroundColor = "#707070";
     document.getElementById("f-3").innerHTML = "2";
     document.getElementById("f-3").style.color = "#29dd56";
-    document.getElementById("f-3").style.fontSize = "larger";
+    
 })
 
 const g3 = document.getElementById("g-3")
@@ -331,7 +330,6 @@ g3.addEventListener("dblclick", function(flipover){
     document.getElementById("g-3").style.backgroundColor = "#707070";
     document.getElementById("g-3").innerHTML = "3";
     document.getElementById("g-3").style.color = "red";
-    document.getElementById("g-3").style.fontSize = "larger";
 })
 
 const h3 = document.getElementById("h-3")
@@ -339,7 +337,7 @@ h3.addEventListener("dblclick", function(flipover){
     document.getElementById("h-3").style.backgroundColor = "#707070";
     document.getElementById("h-3").innerHTML = "1";
     document.getElementById("h-3").style.color = "blue";
-    document.getElementById("h-3").style.fontSize = "larger";
+ 
 })
 
 // LINE 4
@@ -349,7 +347,6 @@ b4.addEventListener("dblclick", function(flipover){
     document.getElementById("b-4").style.backgroundColor = "#707070";
     document.getElementById("b-4").innerHTML = "2";
     document.getElementById("b-4").style.color = "#29dd56";
-    document.getElementById("b-4").style.fontSize = "larger";
 })
 
 const c4 = document.getElementById("c-4")
@@ -357,7 +354,7 @@ c4.addEventListener("dblclick", function(flipover){
     document.getElementById("c-4").style.backgroundColor = "#707070";
     document.getElementById("c-4").innerHTML = "1";
     document.getElementById("c-4").style.color = "blue";
-    document.getElementById("c-4").style.fontSize = "larger";
+    
 })
 
 // blank square will open with any surrounding button
@@ -371,7 +368,6 @@ e4.addEventListener("dblclick", function(flipover){
     document.getElementById("e-4").style.backgroundColor = "#707070";
     document.getElementById("e-4").innerHTML = "1";
     document.getElementById("e-4").style.color = "blue";
-    document.getElementById("e-4").style.fontSize = "larger";
 })
 
 const g4 = document.getElementById("g-4")
@@ -379,7 +375,7 @@ g4.addEventListener("dblclick", function(flipover){
     document.getElementById("g-4").style.backgroundColor = "#707070";
     document.getElementById("g-4").innerHTML = "1";
     document.getElementById("g-4").style.color = "blue";
-    document.getElementById("g-4").style.fontSize = "larger";
+    
 })
 
 // blank square below
@@ -396,7 +392,7 @@ a5.addEventListener("dblclick", function(flipover){
     document.getElementById("a-5").style.backgroundColor = "#707070";
     document.getElementById("a-5").innerHTML = "2";
     document.getElementById("a-5").style.color = "#29dd56";
-    document.getElementById("a-5").style.fontSize = "larger";
+   
 })
 
 const b5 = document.getElementById("b-5")
@@ -404,7 +400,7 @@ b5.addEventListener("dblclick", function(flipover){
     document.getElementById("b-5").style.backgroundColor = "#707070";
     document.getElementById("b-5").innerHTML = "2";
     document.getElementById("b-5").style.color = "#29dd56";
-    document.getElementById("b-5").style.fontSize = "larger";
+    
 })
 
 const c5 = document.getElementById("c-5")
@@ -412,7 +408,7 @@ c5.addEventListener("dblclick", function(flipover){
     document.getElementById("c-5").style.backgroundColor = "#707070";
     document.getElementById("c-5").innerHTML = "2";
     document.getElementById("c-5").style.color = "#29dd56";
-    document.getElementById("c-5").style.fontSize = "larger";
+   
 })
 
 const d5 = document.getElementById("d-5")
@@ -420,7 +416,7 @@ d5.addEventListener("dblclick", function(flipover){
     document.getElementById("d-5").style.backgroundColor = "#707070";
     document.getElementById("d-5").innerHTML = "1";
     document.getElementById("d-5").style.color = "blue";
-    document.getElementById("d-5").style.fontSize = "larger";
+    
 })
 
 const e5 = document.getElementById("e-5")
@@ -428,7 +424,7 @@ e5.addEventListener("dblclick", function(flipover){
     document.getElementById("e-5").style.backgroundColor = "#707070";
     document.getElementById("e-5").innerHTML = "2";
     document.getElementById("e-5").style.color = "#29dd56";
-    document.getElementById("e-5").style.fontSize = "larger";
+    
 })
 
 const f5 = document.getElementById("f-5")
@@ -436,7 +432,7 @@ f5.addEventListener("dblclick", function(flipover){
     document.getElementById("f-5").style.backgroundColor = "#707070";
     document.getElementById("f-5").innerHTML = "1";
     document.getElementById("f-5").style.color = "blue";
-    document.getElementById("f-5").style.fontSize = "larger";
+    
 })
 
 const g5 = document.getElementById("g-5")
@@ -444,7 +440,7 @@ g5.addEventListener("dblclick", function(flipover){
     document.getElementById("g-5").style.backgroundColor = "#707070";
     document.getElementById("g-5").innerHTML = "1";
     document.getElementById("g-5").style.color = "blue";
-    document.getElementById("g-5").style.fontSize = "larger";
+   
 })
 
 // blank 
@@ -460,7 +456,7 @@ a6.addEventListener("dblclick", function(flipover){
     document.getElementById("a-6").style.backgroundColor = "#707070";
     document.getElementById("a-6").innerHTML = "1";
     document.getElementById("a-6").style.color = "blue";
-    document.getElementById("a-6").style.fontSize = "larger";
+    
 })
 
 const c6 = document.getElementById("c-6")
@@ -468,7 +464,7 @@ c6.addEventListener("dblclick", function(flipover){
     document.getElementById("c-6").style.backgroundColor = "#707070";
     document.getElementById("c-6").innerHTML = "2";
     document.getElementById("c-6").style.color = "#29dd56";
-    document.getElementById("c-6").style.fontSize = "larger";
+    
 })
 
 
@@ -477,7 +473,7 @@ e6.addEventListener("dblclick", function(flipover){
     document.getElementById("e-6").style.backgroundColor = "#707070";
     document.getElementById("e-6").innerHTML = "1";
     document.getElementById("e-6").style.color = "blue";
-    document.getElementById("e-6").style.fontSize = "larger";
+    
 })
 
 const f6 = document.getElementById("f-6")
@@ -485,7 +481,7 @@ f6.addEventListener("dblclick", function(flipover){
     document.getElementById("f-6").style.backgroundColor = "#707070";
     document.getElementById("f-6").innerHTML = "1";
     document.getElementById("f-6").style.color = "blue";
-    document.getElementById("f-6").style.fontSize = "larger";
+    
 })
 
 const g6 = document.getElementById("g-6")
@@ -493,7 +489,7 @@ g6.addEventListener("dblclick", function(flipover){
     document.getElementById("g-6").style.backgroundColor = "#707070";
     document.getElementById("g-6").innerHTML = "1";
     document.getElementById("g-6").style.color = "blue";
-    document.getElementById("g-6").style.fontSize = "larger";
+  
 })
 
 const h6 = document.getElementById("h-6")
@@ -501,7 +497,7 @@ h6.addEventListener("dblclick", function(flipover){
     document.getElementById("h-6").style.backgroundColor = "#707070";
     document.getElementById("h-6").innerHTML = "1";
     document.getElementById("h-6").style.color = "blue";
-    document.getElementById("h-6").style.fontSize = "larger";
+    
 })
 
 //  LINE 7
@@ -511,7 +507,7 @@ a7.addEventListener("dblclick", function(flipover){
     document.getElementById("a-7").style.backgroundColor = "#707070";
     document.getElementById("a-7").innerHTML = "1";
     document.getElementById("a-7").style.color = "blue";
-    document.getElementById("a-7").style.fontSize = "larger";
+    
 })
 
 const b7 = document.getElementById("b-7")
@@ -519,7 +515,7 @@ b7.addEventListener("dblclick", function(flipover){
     document.getElementById("b-7").style.backgroundColor = "#707070";
     document.getElementById("b-7").innerHTML = "2";
     document.getElementById("b-7").style.color = "#29dd56";
-    document.getElementById("b-7").style.fontSize = "larger";
+    
 })
 
 const c7 = document.getElementById("c-7")
@@ -527,7 +523,7 @@ c7.addEventListener("dblclick", function(flipover){
     document.getElementById("c-7").style.backgroundColor = "#707070";
     document.getElementById("c-7").innerHTML = "3";
     document.getElementById("c-7").style.color = "red";
-    document.getElementById("c-7").style.fontSize = "larger";
+   
 })
 
 const d7 = document.getElementById("d-7")
@@ -535,7 +531,7 @@ d7.addEventListener("dblclick", function(flipover){
     document.getElementById("d-7").style.backgroundColor = "#707070";
     document.getElementById("d-7").innerHTML = "3";
     document.getElementById("d-7").style.color = "red";
-    document.getElementById("d-7").style.fontSize = "larger";
+    
 })
 
 const e7 = document.getElementById("e-7")
@@ -543,7 +539,7 @@ e7.addEventListener("dblclick", function(flipover){
     document.getElementById("e-7").style.backgroundColor = "#707070";
     document.getElementById("e-7").innerHTML = "2";
     document.getElementById("e-7").style.color = "#29dd56";
-    document.getElementById("e-7").style.fontSize = "larger";
+    
 })
 
 const f7 = document.getElementById("f-7")
@@ -551,7 +547,7 @@ f7.addEventListener("dblclick", function(flipover){
     document.getElementById("f-7").style.backgroundColor = "#707070";
     document.getElementById("f-7").innerHTML = "2";
     document.getElementById("f-7").style.color = "#29dd56";
-    document.getElementById("f-7").style.fontSize = "larger";
+    
 })
 
 const h7 = document.getElementById("h-7")
@@ -559,7 +555,7 @@ h7.addEventListener("dblclick", function(flipover){
     document.getElementById("h-7").style.backgroundColor = "#707070";
     document.getElementById("h-7").innerHTML = "1";
     document.getElementById("h-7").style.color = "blue";
-    document.getElementById("h-7").style.fontSize = "larger";
+    
 })
 
 // LINE 8
@@ -576,7 +572,7 @@ b8.addEventListener("dblclick", function(flipover){
     document.getElementById("b-8").style.backgroundColor = "#707070";
     document.getElementById("b-8").innerHTML = "1";
     document.getElementById("b-8").style.color = "blue";
-    document.getElementById("b-8").style.fontSize = "larger";
+    
 })
 
 const d8 = document.getElementById("d-8")
@@ -584,7 +580,7 @@ d8.addEventListener("dblclick", function(flipover){
     document.getElementById("d-8").style.backgroundColor = "#707070";
     document.getElementById("d-8").innerHTML = "2";
     document.getElementById("d-8").style.color = "#29dd56";
-    document.getElementById("d-8").style.fontSize = "larger";
+    
 })
 
 
@@ -593,7 +589,7 @@ f8.addEventListener("dblclick", function(flipover){
     document.getElementById("f-8").style.backgroundColor = "#707070";
     document.getElementById("f-8").innerHTML = "2";
     document.getElementById("f-8").style.color = "#29dd56";
-    document.getElementById("f-8").style.fontSize = "larger";
+    
 })
 
 const g8 = document.getElementById("g-8")
@@ -601,7 +597,7 @@ g8.addEventListener("dblclick", function(flipover){
     document.getElementById("g-8").style.backgroundColor = "#707070";
     document.getElementById("g-8").innerHTML = "1";
     document.getElementById("g-8").style.color = "blue";
-    document.getElementById("g-8").style.fontSize = "larger";
+    
 })
 
 // blank square
